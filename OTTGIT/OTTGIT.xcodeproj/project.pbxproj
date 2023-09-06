@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		311F78412AA6236100CCC8ED /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F78402AA6236100CCC8ED /* ViewModel.swift */; };
+		311F78432AA7710200CCC8ED /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F78422AA7710200CCC8ED /* SignUpView.swift */; };
+		311F78462AA7741000CCC8ED /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F78452AA7741000CCC8ED /* SignInView.swift */; };
+		311F78482AA7745500CCC8ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F78472AA7745500CCC8ED /* ContentView.swift */; };
+		311F784A2AA7753F00CCC8ED /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F78492AA7753F00CCC8ED /* MainView.swift */; };
 		3124A4BA2AA4315100CF5D71 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3124A4B92AA4315100CF5D71 /* FirebaseAnalyticsSwift */; };
 		3124A4BC2AA4315100CF5D71 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3124A4BB2AA4315100CF5D71 /* FirebaseAuth */; };
 		3124A4BE2AA4315100CF5D71 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3124A4BD2AA4315100CF5D71 /* FirebaseDatabase */; };
@@ -19,16 +24,19 @@
 		3124A4CC2AA4315100CF5D71 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3124A4CB2AA4315100CF5D71 /* FirebaseStorage */; };
 		3124A4CF2AA432FC00CF5D71 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3124A4CE2AA432FC00CF5D71 /* MessageKit */; };
 		31D7FA7E2AA42FF400D95BA7 /* OTTGITApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7FA7D2AA42FF400D95BA7 /* OTTGITApp.swift */; };
-		31D7FA802AA42FF400D95BA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7FA7F2AA42FF400D95BA7 /* ContentView.swift */; };
 		31D7FA822AA42FF500D95BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D7FA812AA42FF500D95BA7 /* Assets.xcassets */; };
 		31D7FA852AA42FF500D95BA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D7FA842AA42FF500D95BA7 /* Preview Assets.xcassets */; };
 		31D7FA8C2AA4304D00D95BA7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31D7FA8B2AA4304D00D95BA7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		311F78402AA6236100CCC8ED /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		311F78422AA7710200CCC8ED /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		311F78452AA7741000CCC8ED /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		311F78472AA7745500CCC8ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		311F78492AA7753F00CCC8ED /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		31D7FA7A2AA42FF400D95BA7 /* OTTGIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTTGIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D7FA7D2AA42FF400D95BA7 /* OTTGITApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTGITApp.swift; sourceTree = "<group>"; };
-		31D7FA7F2AA42FF400D95BA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		31D7FA812AA42FF500D95BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31D7FA842AA42FF500D95BA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		31D7FA8B2AA4304D00D95BA7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -56,6 +64,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		311F783D2AA6115600CCC8ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				311F783E2AA6115E00CCC8ED /* Member */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		311F783E2AA6115E00CCC8ED /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				311F78422AA7710200CCC8ED /* SignUpView.swift */,
+				311F78452AA7741000CCC8ED /* SignInView.swift */,
+				311F78472AA7745500CCC8ED /* ContentView.swift */,
+				311F78492AA7753F00CCC8ED /* MainView.swift */,
+			);
+			path = Member;
+			sourceTree = "<group>";
+		};
+		311F783F2AA6234E00CCC8ED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				311F78402AA6236100CCC8ED /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		311F78442AA772DA00CCC8ED /* App */ = {
+			isa = PBXGroup;
+			children = (
+				31D7FA7D2AA42FF400D95BA7 /* OTTGITApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		31D7FA712AA42FF400D95BA7 = {
 			isa = PBXGroup;
 			children = (
@@ -75,9 +118,10 @@
 		31D7FA7C2AA42FF400D95BA7 /* OTTGIT */ = {
 			isa = PBXGroup;
 			children = (
+				311F78442AA772DA00CCC8ED /* App */,
 				31D7FA8B2AA4304D00D95BA7 /* GoogleService-Info.plist */,
-				31D7FA7D2AA42FF400D95BA7 /* OTTGITApp.swift */,
-				31D7FA7F2AA42FF400D95BA7 /* ContentView.swift */,
+				311F783F2AA6234E00CCC8ED /* ViewModel */,
+				311F783D2AA6115600CCC8ED /* View */,
 				31D7FA812AA42FF500D95BA7 /* Assets.xcassets */,
 				31D7FA832AA42FF500D95BA7 /* Preview Content */,
 			);
@@ -180,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31D7FA802AA42FF400D95BA7 /* ContentView.swift in Sources */,
+				311F78412AA6236100CCC8ED /* ViewModel.swift in Sources */,
+				311F784A2AA7753F00CCC8ED /* MainView.swift in Sources */,
+				311F78482AA7745500CCC8ED /* ContentView.swift in Sources */,
 				31D7FA7E2AA42FF400D95BA7 /* OTTGITApp.swift in Sources */,
+				311F78462AA7741000CCC8ED /* SignInView.swift in Sources */,
+				311F78432AA7710200CCC8ED /* SignUpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -292,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
