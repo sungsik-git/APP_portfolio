@@ -2,6 +2,7 @@ import Foundation
 import Firebase
 import FirebaseAuth
 
+//Firebse insert info Viewmodel
 class ViewModel: ObservableObject {
     
     @Published var state: SignInState = .signedOut

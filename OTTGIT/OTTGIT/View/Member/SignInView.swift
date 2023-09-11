@@ -7,12 +7,13 @@ struct SignInView: View {
     @State var viewModel: ViewModel
 
     var body: some View {
-        NavigationStack {
-            VStack(spacing: 15) {
-                Text("이메일로 로그인하세요")
-                    .font(.largeTitle)
-                    .lineSpacing(10)
-                
+        if #available(iOS 16.0, *) {
+            NavigationStack {
+                VStack(spacing: 15) {
+                    Text("이메일로 로그인하세요")
+                        .font(.largeTitle)
+                        .lineSpacing(10)
+                    
                     VStack {
                         TextField("이메일을 입력하세요", text: $emailText)
                             .padding()
@@ -30,40 +31,43 @@ struct SignInView: View {
                     if signInProcessing {
                         ProgressView()
                     }
-                
-                
-                Button {
-                    signInProcessing = true
-                    viewModel.emailAuthSignIn(email: emailText, password: passwordText)
                     
                     
-                } label: {
-                    Text("로그인")
-                        .padding()
-                        .foregroundColor(.white)
-                        .background(emailText.isEmpty || passwordText.isEmpty == true ? .gray : .red)
-                        .cornerRadius(10)
-                        .padding(.bottom, 40)
-                }
-                .disabled(emailText.isEmpty || passwordText.isEmpty ? true : false)
-                
-                // 회원가입 View로 이동
-                HStack {
-                    Text("아이디가 없으십니까?")
-                    
-                    NavigationLink {
-                        SignUpView()
+                    Button {
+                        signInProcessing = true
+                        viewModel.emailAuthSignIn(email: emailText, password: passwordText)
+                        
+                        
                     } label: {
-                        HStack {
-                            Text("지금 만드세요.")
-                            Image(systemName: "arrow.up.forward")
-                            
+                        Text("로그인")
+                            .padding()
+                            .foregroundColor(.white)
+                            .background(emailText.isEmpty || passwordText.isEmpty == true ? .gray : .red)
+                            .cornerRadius(10)
+                            .padding(.bottom, 40)
+                    }
+                    .disabled(emailText.isEmpty || passwordText.isEmpty ? true : false)
+                    
+                    // 회원가입 View로 이동
+                    HStack {
+                        Text("아이디가 없으십니까?")
+                        
+                        NavigationLink {
+                            SignUpView()
+                        } label: {
+                            HStack {
+                                Text("지금 만드세요.")
+                                Image(systemName: "arrow.up.forward")
+                                
+                            }
                         }
                     }
+                    
                 }
-                
+                .padding()
             }
-            .padding()
+        } else {
+            // Fallback on earlier versions
         }
     }
 }
