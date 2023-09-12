@@ -1,20 +1,20 @@
 //
-//  LocationView.swift
+//  MainView.swift
 //  OTTGIT
 //
-//  Created by KimSungSik on 2023/09/10.
+//  Created by KimSungSik on 2023/09/12.
 //
 
 import SwiftUI
 
-struct LocationView: View {
+struct MainView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct LocationView_Previews: PreviewProvider {
+struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        LocationView()
+        MainView()
     }
 }

@@ -11,9 +11,10 @@
 		311F78432AA7710200CCC8ED /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F78422AA7710200CCC8ED /* SignUpView.swift */; };
 		311F78462AA7741000CCC8ED /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F78452AA7741000CCC8ED /* SignInView.swift */; };
 		311F78482AA7745500CCC8ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F78472AA7745500CCC8ED /* ContentView.swift */; };
-		311F784A2AA7753F00CCC8ED /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F78492AA7753F00CCC8ED /* MainView.swift */; };
+		311F784A2AA7753F00CCC8ED /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F78492AA7753F00CCC8ED /* SplashView.swift */; };
 		311F786C2AADF0C300CCC8ED /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F786B2AADF0C300CCC8ED /* LocationView.swift */; };
 		311F786E2AADF0EF00CCC8ED /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F786D2AADF0EF00CCC8ED /* LocationViewModel.swift */; };
+		311F78702AB0B38D00CCC8ED /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F786F2AB0B38D00CCC8ED /* MainView.swift */; };
 		3124A4BA2AA4315100CF5D71 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3124A4B92AA4315100CF5D71 /* FirebaseAnalyticsSwift */; };
 		3124A4BC2AA4315100CF5D71 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3124A4BB2AA4315100CF5D71 /* FirebaseAuth */; };
 		3124A4BE2AA4315100CF5D71 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3124A4BD2AA4315100CF5D71 /* FirebaseDatabase */; };
@@ -36,9 +37,10 @@
 		311F78422AA7710200CCC8ED /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		311F78452AA7741000CCC8ED /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		311F78472AA7745500CCC8ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		311F78492AA7753F00CCC8ED /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		311F78492AA7753F00CCC8ED /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		311F786B2AADF0C300CCC8ED /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		311F786D2AADF0EF00CCC8ED /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		311F786F2AB0B38D00CCC8ED /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		31D7FA7A2AA42FF400D95BA7 /* OTTGIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTTGIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D7FA7D2AA42FF400D95BA7 /* OTTGITApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTGITApp.swift; sourceTree = "<group>"; };
 		31D7FA812AA42FF500D95BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,21 +73,14 @@
 		311F783D2AA6115600CCC8ED /* View */ = {
 			isa = PBXGroup;
 			children = (
-				311F783E2AA6115E00CCC8ED /* Member */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		311F783E2AA6115E00CCC8ED /* Member */ = {
-			isa = PBXGroup;
-			children = (
 				311F78422AA7710200CCC8ED /* SignUpView.swift */,
 				311F78452AA7741000CCC8ED /* SignInView.swift */,
 				311F78472AA7745500CCC8ED /* ContentView.swift */,
-				311F78492AA7753F00CCC8ED /* MainView.swift */,
+				311F78492AA7753F00CCC8ED /* SplashView.swift */,
 				311F786B2AADF0C300CCC8ED /* LocationView.swift */,
+				311F786F2AB0B38D00CCC8ED /* MainView.swift */,
 			);
-			path = Member;
+			path = View;
 			sourceTree = "<group>";
 		};
 		311F783F2AA6234E00CCC8ED /* ViewModel */ = {
@@ -231,7 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				311F78412AA6236100CCC8ED /* ViewModel.swift in Sources */,
-				311F784A2AA7753F00CCC8ED /* MainView.swift in Sources */,
+				311F78702AB0B38D00CCC8ED /* MainView.swift in Sources */,
+				311F784A2AA7753F00CCC8ED /* SplashView.swift in Sources */,
 				311F78482AA7745500CCC8ED /* ContentView.swift in Sources */,
 				31D7FA7E2AA42FF400D95BA7 /* OTTGITApp.swift in Sources */,
 				311F786E2AADF0EF00CCC8ED /* LocationViewModel.swift in Sources */,
@@ -294,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +344,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

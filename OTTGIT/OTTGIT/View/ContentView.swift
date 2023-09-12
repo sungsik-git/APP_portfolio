@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             if viewModel.state == .signedIn {
-                MainView()
+                SplashView()
             } else {
                 SignUpView()
             }

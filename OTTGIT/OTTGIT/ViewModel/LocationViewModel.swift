@@ -9,6 +9,7 @@ import Foundation
 import CoreLocation
 import UIKit
 
+
 class LocationViewModel: UIViewController{
     
     let locationManager = CLLocationManager()
@@ -61,7 +62,7 @@ class LocationViewModel: UIViewController{
             }
         }
         let cancel = UIAlertAction(title: "취소", style: .default) { [weak self] _ in
-            async { await self?.reload() }
+            async { await self?.reloadInputViews() }
         }
         requestLocationServiceAlert.addAction(cancel)
         requestLocationServiceAlert.addAction(goSetting)
