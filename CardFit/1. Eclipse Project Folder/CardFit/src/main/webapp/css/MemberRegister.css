@@ -1,0 +1,175 @@
+@charset "UTF-8";
+                @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 98.9vh;
+        }
+        #line{
+            border: 2px #012E40 solid;
+            position: relative;
+            top: 20vh;
+            margin: 0 auto;
+            width: 49vw;
+        }
+        .point{
+            width: 18px;
+            height: 18px;
+            top: -8px;
+            border-radius: 12px 12px 12px 12px;
+            position: absolute;
+            background-color: black;
+            font-family: GmarketSansMedium;
+        }
+        .point:nth-child(2){
+            left: 15.6vw;
+        }
+        .point:nth-child(3){
+            left: 32.3vw;
+        }
+        .point:nth-child(4){
+            left: 48.9vw;
+        }
+        .point > p{
+            width: 5vw;
+            position: absolute;
+            top: 3vh;
+            left: -1.5vw;
+        }
+
+        #conditions1{
+            position: relative;
+            top: 30vh;
+            margin: 0 auto;
+            width: 25vw;
+            left: -10vw;
+        }
+        #conditions2{
+            position: relative;
+            top: 50vh;
+            margin: 0 auto;
+            width: 25vw;
+            left: -10vw;
+
+        }
+        #contents1, #contents2{
+            position: absolute;
+            width: 45vw;
+            border: 2px black solid;
+            margin-top: 2vh;
+            height: 15vh;
+            overflow-y: scroll;
+        }
+        #allCheck{
+            position: relative;
+            margin: 0 auto;
+            width: 45vw;
+            top: 70vh;
+        }
+        #nextBtn1{
+            padding: 15px;
+            border: none;
+            background-color: #e4e4e4;
+            width: 45vw;
+        }
+        #identificationBox{
+            position: relative;
+            top: 35vh;
+            margin: 0 auto;
+            width: 45vw;
+            height: 60vh;
+        }
+        #identiPhone{
+            width: 22vw;
+            height: 30vh;
+            border: solid 2px #012E40;
+            float: left;
+            text-align: center;
+            line-height: 30vh;
+            background-color: #e4e4e4;
+        }
+        #nextBtn2{
+            position: absolute;
+            width: 45vw;
+            height: 10vh;
+            bottom: 18vh;
+            float: right;
+            border: solid 2px #012E40;
+            text-align: center;
+            line-height: 10vh;
+            background-color: #e4e4e4;
+        }
+        #registerForm{
+            border: 2px #012E40 solid;
+            position: relative;
+            margin: 35vh auto;
+            width: 30vw;
+        }
+        table{
+            padding: 20px;
+            margin-top: 12px;
+        }
+        td:nth-of-type(1){
+            background-color: #012E40;
+            margin-right: 12px;
+            width: 10vw;
+            text-align: center;
+            color: white;
+            font-family: GmarketSansMedium;
+            line-height: 30px;
+        }
+        td input {
+            height: 23px;
+            margin: 1px;
+        }
+        td:last-child{
+            background-color: white;
+        }
+        #checkIdBtn, #nextBtn3, #addBtn{
+            border: none;
+            font-family: GmarketSansMedium;
+        }
+        #nextBtn3{
+            padding: 8px;
+            float: right;
+            margin-top: 10px;
+        }
+        #finishBox{
+            font-family: GmarketSansMedium;
+            position: relative;
+            top: 40vh;
+            margin: 0 auto;
+            width: 40vw;
+            border: #012E40 2px solid;
+            text-align: center;
+            padding: 30px;
+            background-color: #012E40;
+            color: white;
+            line-height: 50px;
+        }
+        #finishBox input{
+            float: right;
+            background-color: #012E40;
+            border: none;
+            color: white;
+            font-weight: bold;
+        }
+        #conditionsBox{
+            /* display: none; */
+        }
+        #identificationBox{
+            display: none;
+        }
+        #registerForm{
+            display: none;
+        }
+        #finishBox{
+            display: none;
+        }

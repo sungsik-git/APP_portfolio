@@ -6,29 +6,16 @@
 //
 
 import SwiftUI
-import FirebaseCore
-
-
-class AppDelegate: NSObject, UIApplicationDelegate {
-  func application(_ application: UIApplication,
-                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-    FirebaseApp.configure()
-
-    return true
-  }
-}
 
 @main
 struct AnotherSundayApp: App {
-  // register app delegate for Firebase setup
-  @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+//    let persistenceController = PersistenceController.shared
 
-
-  var body: some Scene {
-    WindowGroup {
-      NavigationView {
-        SplashView()
-      }
+    var body: some Scene {
+        WindowGroup {
+            SplashView()
+//            ContentView()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+        }
     }
-  }
 }

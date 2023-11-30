@@ -1,0 +1,159 @@
+@font-face {
+	font-family: 'GmarketSansMedium';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/* header section */
+header {
+	position: relative;
+	height: 19.9vh;
+}
+
+.logoImg {
+	position: absolute;
+	width: 15vw;
+	height: 7vh;
+	top: 6vh;
+	left: 10vw;
+	font-size: 2.5rem;
+	font-family: GmarketSansMedium;
+	color: #012E40;
+}
+
+#logoBox {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	border: black 2px solid;
+}
+
+.headerContents {
+	position: absolute;
+	width: 98.9vw;
+	height: 30vh;
+	background-color: #F2E3D5;
+	top: 22vh;
+}
+
+nav li {
+	color: #012E40;
+	list-style: none;
+	float: left;
+	margin: auto 2vw;
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family: GmarketSansMedium;
+}
+
+#GNB li a {
+	color: #012E40;
+	text-decoration: none;
+}
+
+#GNB {
+	right: 7vh;
+	width: 50vw;
+	height: 2vw;
+	position: absolute;
+	top: 10vh;
+}
+
+#LNB {
+	position: absolute;
+	width: 30vw;
+	top: 2vh;
+	right: 0;
+}
+
+#LNB li a {
+	color: #012E40;
+	text-decoration: none;
+	font-size: 0.8rem;
+}
+
+
+@font-face {
+	font-family: 'GmarketSansMedium';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+article {
+	height: 69.8vh;
+}
+
+#sideMenu {
+	position: relative;
+	width: 25vw;
+	height: 69.8vh;
+	float: left;
+	text-align: center;
+}
+
+#sideMenu h1 {
+	top: 20px;
+	font-size: 2rem;
+	font-family: GmarketSansMedium;
+	margin-top: 3vh;
+	background-color: #012E40;
+	color: white;
+	display: inline-block;
+	padding: 12px;
+	width: 12.5vw;
+}
+
+li {
+	list-style: none;
+	font-family: GmarketSansMedium;
+	margin-top: 7px;
+	padding: 5px;
+	margin-left: -50px;
+	cursor: pointer;
+}
+
+section {
+	position: relative;
+	width: 73.9vw;
+	height: 69.9vh;
+	float: right;
+}
+
+#passwordCheckBox {
+	position: absolute;
+	width: 35vw;
+	height: 30vh;
+	left: 15vw;
+	top: 15vh;
+	border: 2px solid #012E40;
+	text-align: center;
+	box-shadow: 2px 2px 8px black;
+}
+
+#passwordCheckBox p {
+	font-family: GmarketSansMedium;
+	margin-top: 8vh;
+}
+
+#checkBtn {
+	background-color: white;
+	border: none;
+	font-family: GmarketSansMedium;
+	padding: 4px;
+}
+
+footer {
+	position: relative;
+	border: 2px green solid;
+	height: 5vw;
+}

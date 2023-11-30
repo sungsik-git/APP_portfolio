@@ -9,22 +9,19 @@
 /* Begin PBXBuildFile section */
 		31086D182A8F157600A24AFD /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31086D172A8F157600A24AFD /* SplashView.swift */; };
 		31086D1A2A8F1F0B00A24AFD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31086D192A8F1F0B00A24AFD /* HomeView.swift */; };
-		31086D9B2A93AA3B00A24AFD /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31086D9A2A93AA3B00A24AFD /* LaunchScreen.swift */; };
-		31086DA42A94F4A300A24AFD /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31086DA32A94F4A300A24AFD /* UserViewModel.swift */; };
-		31086DAF2A9500A700A24AFD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31086DAE2A9500A700A24AFD /* GoogleService-Info.plist */; };
-		31086DE32A962D5000A24AFD /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 31086DE22A962D5000A24AFD /* FirebaseAnalyticsOnDeviceConversion */; };
-		31086DE52A962D5000A24AFD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 31086DE42A962D5000A24AFD /* FirebaseDatabase */; };
-		31086DE72A962D5000A24AFD /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 31086DE62A962D5000A24AFD /* FirebaseDatabaseSwift */; };
-		31086DE92A962D5000A24AFD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 31086DE82A962D5000A24AFD /* FirebaseFirestore */; };
-		31086DEB2A962D5000A24AFD /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 31086DEA2A962D5000A24AFD /* FirebaseFirestoreSwift */; };
-		31086DED2A962D9F00A24AFD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31086DEC2A962D9F00A24AFD /* UserModel.swift */; };
+		31086D212A90595C00A24AFD /* AnotherSunday.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31086D1F2A90595C00A24AFD /* AnotherSunday.xcdatamodeld */; };
+		31086D282A9064A500A24AFD /* AnotherSunday+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31086D262A9064A500A24AFD /* AnotherSunday+CoreDataClass.swift */; };
+		31086D292A9064A500A24AFD /* AnotherSunday+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31086D272A9064A500A24AFD /* AnotherSunday+CoreDataProperties.swift */; };
+		31086D2B2A90762E00A24AFD /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31086D2A2A90762E00A24AFD /* UserStore.swift */; };
+		31086D2D2A90771F00A24AFD /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31086D2C2A90771F00A24AFD /* UserRepository.swift */; };
 		313496652A8F115700B83BF1 /* AnotherSundayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313496642A8F115700B83BF1 /* AnotherSundayApp.swift */; };
 		313496672A8F115700B83BF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313496662A8F115700B83BF1 /* ContentView.swift */; };
 		313496692A8F115800B83BF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 313496682A8F115800B83BF1 /* Assets.xcassets */; };
 		3134966C2A8F115800B83BF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3134966B2A8F115800B83BF1 /* Preview Assets.xcassets */; };
 		3134966E2A8F115800B83BF1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134966D2A8F115800B83BF1 /* Persistence.swift */; };
-		316089872A99D7D4006E2A0B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316089862A99D7D4006E2A0B /* DetailView.swift */; };
-		316089892A99E12B006E2A0B /* EditInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316089882A99E12B006E2A0B /* EditInfoView.swift */; };
+		3134967B2A8F115800B83BF1 /* AnotherSundayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134967A2A8F115800B83BF1 /* AnotherSundayTests.swift */; };
+		313496852A8F115800B83BF1 /* AnotherSundayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313496842A8F115800B83BF1 /* AnotherSundayUITests.swift */; };
+		313496872A8F115800B83BF1 /* AnotherSundayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313496862A8F115800B83BF1 /* AnotherSundayUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,20 +44,22 @@
 /* Begin PBXFileReference section */
 		31086D172A8F157600A24AFD /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		31086D192A8F1F0B00A24AFD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		31086D9A2A93AA3B00A24AFD /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
-		31086DA32A94F4A300A24AFD /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
-		31086DAE2A9500A700A24AFD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		31086DEC2A962D9F00A24AFD /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		313496612A8F115700B83BF1 /* AnotherSunday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AnotherSunday.app; path = "/Users/kimsungsik/Desktop/APP_portfolio/AnotherSunday/build/Debug-iphoneos/AnotherSunday.app"; sourceTree = "<absolute>"; };
+		31086D202A90595C00A24AFD /* AnotherSunday.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnotherSunday.xcdatamodel; sourceTree = "<group>"; };
+		31086D262A9064A500A24AFD /* AnotherSunday+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnotherSunday+CoreDataClass.swift"; sourceTree = "<group>"; };
+		31086D272A9064A500A24AFD /* AnotherSunday+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnotherSunday+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		31086D2A2A90762E00A24AFD /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		31086D2C2A90771F00A24AFD /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		313496612A8F115700B83BF1 /* AnotherSunday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnotherSunday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		313496642A8F115700B83BF1 /* AnotherSundayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherSundayApp.swift; sourceTree = "<group>"; };
 		313496662A8F115700B83BF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		313496682A8F115800B83BF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3134966B2A8F115800B83BF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3134966D2A8F115800B83BF1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		313496762A8F115800B83BF1 /* AnotherSundayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AnotherSundayTests.xctest; path = "/Users/kimsungsik/Desktop/APP_portfolio/AnotherSunday/build/Debug-iphoneos/AnotherSundayTests.xctest"; sourceTree = "<absolute>"; };
-		313496802A8F115800B83BF1 /* AnotherSundayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AnotherSundayUITests.xctest; path = "/Users/kimsungsik/Desktop/APP_portfolio/AnotherSunday/build/Debug-iphoneos/AnotherSundayUITests.xctest"; sourceTree = "<absolute>"; };
-		316089862A99D7D4006E2A0B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		316089882A99E12B006E2A0B /* EditInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditInfoView.swift; sourceTree = "<group>"; };
+		313496762A8F115800B83BF1 /* AnotherSundayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnotherSundayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3134967A2A8F115800B83BF1 /* AnotherSundayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherSundayTests.swift; sourceTree = "<group>"; };
+		313496802A8F115800B83BF1 /* AnotherSundayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnotherSundayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		313496842A8F115800B83BF1 /* AnotherSundayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherSundayUITests.swift; sourceTree = "<group>"; };
+		313496862A8F115800B83BF1 /* AnotherSundayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherSundayUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31086DEB2A962D5000A24AFD /* FirebaseFirestoreSwift in Frameworks */,
-				31086DE72A962D5000A24AFD /* FirebaseDatabaseSwift in Frameworks */,
-				31086DE92A962D5000A24AFD /* FirebaseFirestore in Frameworks */,
-				31086DE52A962D5000A24AFD /* FirebaseDatabase in Frameworks */,
-				31086DE32A962D5000A24AFD /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +97,11 @@
 		31086D162A8F143800A24AFD /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				31086DAE2A9500A700A24AFD /* GoogleService-Info.plist */,
+				31086D2A2A90762E00A24AFD /* UserStore.swift */,
+				31086D262A9064A500A24AFD /* AnotherSunday+CoreDataClass.swift */,
+				31086D272A9064A500A24AFD /* AnotherSunday+CoreDataProperties.swift */,
+				31086D1F2A90595C00A24AFD /* AnotherSunday.xcdatamodeld */,
+				31086D2C2A90771F00A24AFD /* UserRepository.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -112,7 +110,20 @@
 			isa = PBXGroup;
 			children = (
 				313496632A8F115700B83BF1 /* AnotherSunday */,
+				313496792A8F115800B83BF1 /* AnotherSundayTests */,
+				313496832A8F115800B83BF1 /* AnotherSundayUITests */,
+				313496622A8F115700B83BF1 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		313496622A8F115700B83BF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				313496612A8F115700B83BF1 /* AnotherSunday.app */,
+				313496762A8F115800B83BF1 /* AnotherSundayTests.xctest */,
+				313496802A8F115800B83BF1 /* AnotherSundayUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		313496632A8F115700B83BF1 /* AnotherSunday */ = {
@@ -139,10 +150,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		313496792A8F115800B83BF1 /* AnotherSundayTests */ = {
+			isa = PBXGroup;
+			children = (
+				3134967A2A8F115800B83BF1 /* AnotherSundayTests.swift */,
+			);
+			path = AnotherSundayTests;
+			sourceTree = "<group>";
+		};
+		313496832A8F115800B83BF1 /* AnotherSundayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				313496842A8F115800B83BF1 /* AnotherSundayUITests.swift */,
+				313496862A8F115800B83BF1 /* AnotherSundayUITestsLaunchTests.swift */,
+			);
+			path = AnotherSundayUITests;
+			sourceTree = "<group>";
+		};
 		313496932A8F11EC00B83BF1 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				313496642A8F115700B83BF1 /* AnotherSundayApp.swift */,
+				31086D172A8F157600A24AFD /* SplashView.swift */,
+				31086D192A8F1F0B00A24AFD /* HomeView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -150,7 +180,6 @@
 		313496942A8F120100B83BF1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				31086DEC2A962D9F00A24AFD /* UserModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,7 +187,6 @@
 		313496952A8F120B00B83BF1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				31086DA32A94F4A300A24AFD /* UserViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -166,12 +194,7 @@
 		313496962A8F123A00B83BF1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				31086D9A2A93AA3B00A24AFD /* LaunchScreen.swift */,
-				31086D172A8F157600A24AFD /* SplashView.swift */,
-				31086D192A8F1F0B00A24AFD /* HomeView.swift */,
 				313496662A8F115700B83BF1 /* ContentView.swift */,
-				316089862A99D7D4006E2A0B /* DetailView.swift */,
-				316089882A99E12B006E2A0B /* EditInfoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,13 +215,6 @@
 			dependencies = (
 			);
 			name = AnotherSunday;
-			packageProductDependencies = (
-				31086DE22A962D5000A24AFD /* FirebaseAnalyticsOnDeviceConversion */,
-				31086DE42A962D5000A24AFD /* FirebaseDatabase */,
-				31086DE62A962D5000A24AFD /* FirebaseDatabaseSwift */,
-				31086DE82A962D5000A24AFD /* FirebaseFirestore */,
-				31086DEA2A962D5000A24AFD /* FirebaseFirestoreSwift */,
-			);
 			productName = AnotherSunday;
 			productReference = 313496612A8F115700B83BF1 /* AnotherSunday.app */;
 			productType = "com.apple.product-type.application";
@@ -271,10 +287,7 @@
 				Base,
 			);
 			mainGroup = 313496582A8F115700B83BF1;
-			packageReferences = (
-				31086DE12A962D5000A24AFD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-			);
-			productRefGroup = 313496582A8F115700B83BF1;
+			productRefGroup = 313496622A8F115700B83BF1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -292,7 +305,6 @@
 			files = (
 				3134966C2A8F115800B83BF1 /* Preview Assets.xcassets in Resources */,
 				313496692A8F115800B83BF1 /* Assets.xcassets in Resources */,
-				31086DAF2A9500A700A24AFD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,16 +329,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31086DED2A962D9F00A24AFD /* UserModel.swift in Sources */,
-				316089872A99D7D4006E2A0B /* DetailView.swift in Sources */,
-				31086D9B2A93AA3B00A24AFD /* LaunchScreen.swift in Sources */,
+				31086D282A9064A500A24AFD /* AnotherSunday+CoreDataClass.swift in Sources */,
+				31086D292A9064A500A24AFD /* AnotherSunday+CoreDataProperties.swift in Sources */,
 				3134966E2A8F115800B83BF1 /* Persistence.swift in Sources */,
 				313496672A8F115700B83BF1 /* ContentView.swift in Sources */,
-				31086DA42A94F4A300A24AFD /* UserViewModel.swift in Sources */,
-				316089892A99E12B006E2A0B /* EditInfoView.swift in Sources */,
 				31086D182A8F157600A24AFD /* SplashView.swift in Sources */,
 				31086D1A2A8F1F0B00A24AFD /* HomeView.swift in Sources */,
+				31086D2B2A90762E00A24AFD /* UserStore.swift in Sources */,
 				313496652A8F115700B83BF1 /* AnotherSundayApp.swift in Sources */,
+				31086D2D2A90771F00A24AFD /* UserRepository.swift in Sources */,
+				31086D212A90595C00A24AFD /* AnotherSunday.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3134967B2A8F115800B83BF1 /* AnotherSundayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +354,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				313496872A8F115800B83BF1 /* AnotherSundayUITestsLaunchTests.swift in Sources */,
+				313496852A8F115800B83BF1 /* AnotherSundayUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -464,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -643,44 +658,18 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		31086DE12A962D5000A24AFD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.0.0;
-			};
+/* Begin XCVersionGroup section */
+		31086D1F2A90595C00A24AFD /* AnotherSunday.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31086D202A90595C00A24AFD /* AnotherSunday.xcdatamodel */,
+			);
+			currentVersion = 31086D202A90595C00A24AFD /* AnotherSunday.xcdatamodel */;
+			path = AnotherSunday.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
 		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		31086DE22A962D5000A24AFD /* FirebaseAnalyticsOnDeviceConversion */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 31086DE12A962D5000A24AFD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsOnDeviceConversion;
-		};
-		31086DE42A962D5000A24AFD /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 31086DE12A962D5000A24AFD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabase;
-		};
-		31086DE62A962D5000A24AFD /* FirebaseDatabaseSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 31086DE12A962D5000A24AFD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabaseSwift;
-		};
-		31086DE82A962D5000A24AFD /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 31086DE12A962D5000A24AFD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		31086DEA2A962D5000A24AFD /* FirebaseFirestoreSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 31086DE12A962D5000A24AFD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestoreSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
+/* End XCVersionGroup section */
 	};
 	rootObject = 313496592A8F115700B83BF1 /* Project object */;
 }

@@ -1,0 +1,17 @@
+# 옷깃
+- 제작 의도 : 반경 1Km(가능하면 더욱 짧게)내에 주변 회원과 소통할 수 있는 어플리케이션 제작
+- 활용 : 같은 건물 내 도움이 필요한 경우, 주변에 친구가 필요한 경우, 주변에 급하게 알려야 할 사항이 있는 경우 등
+
+# 플로우 차트
+- Splash Screen - Login(계정 연동) - Main(map <-> list)
+                                     ㅏ Status Message
+                                     ㅏ My Page ㅜ Edit Information
+                                     ㅣ          ㅏ Account Management (Logout, Delete Account...)
+                                     ㅏ Other User Profile - (AD) - chatting
+
+# 필요한 기능 (API)
+- [ ] 계정 연동 로그인
+- [ ] 위치 기반
+- [ ] 카메라 접근
+- [ ] 챗팅 기록 저장 DB (FireBase)
+

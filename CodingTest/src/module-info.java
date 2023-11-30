@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author kimsungsik
+ *
+ */
+module CodingTest {
+}

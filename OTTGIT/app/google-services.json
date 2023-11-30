@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "378331338040",
+    "project_id": "ottgit-22039",
+    "storage_bucket": "ottgit-22039.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378331338040:android:004600cddb7b89a5d71dcd",
+        "android_client_info": {
+          "package_name": "com.chatting.ottgit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378331338040-484r0blr6nsahbh30klvgipfd76ge4gf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoG36lgKkmqLEM92wch21c7OTXE8fJymE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378331338040-484r0blr6nsahbh30klvgipfd76ge4gf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "378331338040-5f4h18sit6efv8gcl7igcgi1vv20ufgh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.OTTGIT.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

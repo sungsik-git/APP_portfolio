@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'GmarketSansMedium';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: GmarketSansMedium;
+}
+body{
+	width: 100%;
+	height: 3000px;
+}
+/* header section */
+header {
+	position: relative;
+	height: 50vh;
+	width: 100%;
+}
+
+.headerContents > img {
+	position: absolute;
+	width: 1519px;
+	height: 440px;
+	background-color: #F2E3D5;
+	top: 17vh;
+}
+
+#aboutBox, #contextBox {
+	position: absolute;
+	width: 40vw;
+	height: 18vh;
+	top: 80vh;
+	left: 8vw;
+	padding: 18px;
+	font-family: GmarketSansMedium;
+	background-color: #F2E3D5;
+	text-align: center;
+}
+
+#aboutBox h1 {
+	font-size: 20px;
+	margin-top: 5vh;
+}
+
+#contextBox {
+	position: absolute;
+	left: 52vw;
+}
+
+#contextBox h1 {
+	margin-top: 2vh;
+}
+
+
+article {
+	height: 50vw;
+	position: relative;
+	background-color: white;
+}
+
+article>p {
+	font-size: 30px;
+	position: absolute;
+	left: 5vw;
+	top: 10vh;
+	color: #F2E3D5;
+	font-family: GmarketSansMedium;
+}
+
+#bestCard {
+	position: absolute;
+	width: 70vw;
+	height: 60vh;
+	top: 15vh;
+	left: 15vw;
+	text-align: center;
+	color: #012E40;
+}
+
+#bestCard h1 {
+	font-size: 1.7rem;
+	font-family: GmarketSansMedium;
+	padding: 8px;
+	margin-top: 2vh;
+}
+
+#rankingNav {
+	position: absolute;
+	width: 50vw;
+	left: 8vw;
+}
+
+#rankingNav li {
+	list-style: none;
+	padding: 9px;
+	font-size: 1rem;
+	font-family: GmarketSansMedium;
+	margin-left: 3vw;
+	display: inline-block;
+	width: 8vw;
+	border-radius: 12px 12px 12px 12px;
+	box-shadow: 2px 2px black;
+}
+
+.active {
+	background-color: #012E40;
+	color: white;
+	box-shadow: none;
+}
+
+#RankingBox1, #RankingBox2, #RankingBox3, #RankingBox4 {
+	position: absolute;
+	width: 73vw;
+	height: 60vh;
+	top: 20vh;
+	font-family: GmarketSansMedium;
+}
+
+#companyRankingBox, #rewardRankingBox {
+	left: 3vw;
+}
+
+.totalRankingList, .recodeRankingList {
+	border: #012E40 2px solid;
+	width: 16vw;
+	height: 60vh;
+	float: left;
+	margin-left: 2vw;
+}
+
+.companyRankingList, .rewardRankingList {
+	border: #012E40 2px solid;
+	width: 20vw;
+	height: 30vh;
+	float: left;
+	margin-left: 2vw;
+	margin-bottom: 3vh;
+}
+
+#RankingBox1 {
+	display: block;
+}
+
+#RankingBox2 {
+	display: none;
+}
+
+#RankingBox3 {
+	display: none;
+}
+
+#RankingBox4 {
+	display: none;
+}
+
+#searchMyCard {
+	height: 60vw;
+	position: relative;
+}
+
+#searchMyCard>p {
+	position: absolute;
+	color: #012E40;
+	font-family: GmarketSansMedium;
+}
+
+#searchMyCardBack {
+	width: 98.9vw;
+	height: 120vh;
+}
+
+#LssuanceTrain {
+	position: absolute;
+	width: 80vw;
+	height: 60vh;
+	left: 10vw;
+	top: 20vh;
+	background-color: white;
+	opacity: 0.85;
+	border: #024959 3px solid;
+}
+
+#LssuanceTrain>p {
+	font-family: GmarketSansMedium;
+	position: absolute;
+	top: 4vh;
+	left: 5vw;
+	font-size: 1.5rem;
+}
+
+#LssuanceTrainLine {
+	position: absolute;
+	border: #024959 4px solid;
+	width: 70vw;
+	top: 13vh;
+	left: 5vw;
+}
+
+.stepBox {
+	position: absolute;
+	width: 10vw;
+	font-family: GmarketSansMedium;
+	top: 18vh;
+	left: 8vw;
+}
+
+.stepBox:first-child {
+	font-size: 1.5rem;
+}
+
+#LssuanceTrain>div:nth-of-type(3) {
+	position: absolute;
+	left: 27vw;
+}
+
+#LssuanceTrain>div:nth-of-type(4) {
+	position: absolute;
+	left: 47vw;
+}
+
+#LssuanceTrain>div:nth-of-type(5) {
+	position: absolute;
+	left: 65vw;
+}
+
+#searchMyCardBtnBox {
+	position: absolute;
+	width: 50vw;
+	top: 85vh;
+	right: 4vw;
+}
+
+#goTest, #goReview {
+	position: relative;
+	width: 20vw;
+	background-color: #024959;
+	border-radius: 12px 12px 12px 12px;
+	line-height: 3rem;
+	font-family: GmarketSansMedium;
+	color: #F2E3D5;
+	padding: 8px;
+	text-align: center;
+	float: left;
+	margin-left: 2.5vw;
+}
+
+#review {
+	height: 99.8vh;
+	width: 70vw;
+	position: relative;
+	margin: 0 auto;
+}
+
+#review h1 {
+	font-size: 1.7rem;
+	position: absolute;
+	left: -7vw;
+}
+
+#listbox {
+	text-align: center;
+	position: absolute;
+	top: 6vh;
+	width: 70vw;
+}
+
+.reviewList {
+	border: 2px #012E40 solid;
+	width: 30vw;
+	height: 40vh;
+	float: left;
+	margin: 12px;
+}
+
+footer {
+	border: 2px green solid;
+	height: 5vw;
+}
